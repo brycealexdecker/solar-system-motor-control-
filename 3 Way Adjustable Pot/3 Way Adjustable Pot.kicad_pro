@@ -278,7 +278,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 102)",
         "wire_width": 6
       },
@@ -287,7 +287,7 @@
         "line_style": 0,
         "name": "IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 243)",
         "wire_width": 6
       },
@@ -296,7 +296,7 @@
         "line_style": 0,
         "name": "Logic",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(102, 154, 161)",
         "wire_width": 6
       },
@@ -305,8 +305,17 @@
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 28)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Power Switch",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 176, 0)",
         "wire_width": 6
       },
       {
@@ -314,7 +323,7 @@
         "line_style": 0,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(160, 9, 205)",
         "wire_width": 6
       }
@@ -344,6 +353,18 @@
       {
         "netclass": "Signal",
         "pattern": "/signal*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "V+"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "V-"
+      },
+      {
+        "netclass": "Power Switch",
+        "pattern": "/switch*"
       }
     ]
   },
