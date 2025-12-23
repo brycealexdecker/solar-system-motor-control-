@@ -7,7 +7,7 @@
 	(title_block
 		(title "Adjustable Digital Resistor")
 		(date "2025-12-10")
-		(rev "1")
+		(comment 1 "iteration 1")
 	)
 	(lib_symbols
 		(symbol "74HC4006:CD74HC4066E"
@@ -4360,7 +4360,7 @@
 	)
 	(text "CMOS Tri-Switch\n"
 		(exclude_from_sim no)
-		(at 80.01 98.044 0)
+		(at 80.01 98.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,6 +4652,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 74.93) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0522d33f-1b94-4213-b2a1-34d307b09562")
+	)
+	(wire
+		(pts
 			(xy 148.59 72.39) (xy 149.86 72.39)
 		)
 		(stroke
@@ -4682,6 +4692,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066c64a0-267d-452e-af27-8e9b61c52b99")
+	)
+	(wire
+		(pts
 			(xy 135.89 34.29) (xy 127 34.29)
 		)
 		(stroke
@@ -4699,6 +4719,16 @@
 			(type default)
 		)
 		(uuid "09625b16-5b98-431c-8f48-eed4be134e6e")
+	)
+	(wire
+		(pts
+			(xy 90.17 66.04) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a955e7b-357b-4fc8-9e74-e6f4fb3672c6")
 	)
 	(wire
 		(pts
@@ -5252,16 +5282,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 128.27 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57bd42f8-7b34-4220-abdb-9ac5d67eda1a")
-	)
-	(wire
-		(pts
 			(xy 66.04 124.46) (xy 57.15 124.46)
 		)
 		(stroke
@@ -5352,6 +5372,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e76606-db78-48b2-9381-e53daeef227e")
+	)
+	(wire
+		(pts
 			(xy 87.63 62.23) (xy 90.17 62.23)
 		)
 		(stroke
@@ -5369,16 +5399,6 @@
 			(type default)
 		)
 		(uuid "673a0a16-f866-4ed6-84cb-84cf387bff11")
-	)
-	(wire
-		(pts
-			(xy 157.48 74.93) (xy 128.27 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ab1033-3bd2-4804-a50d-7ea37591bac6")
 	)
 	(wire
 		(pts
@@ -5609,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "9f55f8f8-622c-4d8e-bda7-ca47f50d80ce")
-	)
-	(wire
-		(pts
-			(xy 76.2 66.04) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05be368-15f3-4312-b231-e3db9efd3690")
 	)
 	(wire
 		(pts
@@ -5962,6 +5972,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 66.04) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9eb06ce-74c2-48f7-86fb-4e468f85c7f6")
+	)
+	(wire
+		(pts
 			(xy 182.88 74.93) (xy 182.88 76.2)
 		)
 		(stroke
@@ -6129,6 +6149,16 @@
 			(type default)
 		)
 		(uuid "ef3e7605-c15b-40ea-b7e3-0461b94b287c")
+	)
+	(wire
+		(pts
+			(xy 96.52 68.58) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e91fbc-dc93-4eeb-a9ea-75e39f178a93")
 	)
 	(wire
 		(pts
@@ -6379,6 +6409,16 @@
 			(justify left bottom)
 		)
 		(uuid "9185835e-fcd2-4b18-87ed-b3513df28d8e")
+	)
+	(label "in_norm_on_rst"
+		(at 118.11 74.93 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "92771e20-3ca5-4d03-ab49-c776ea2e85d0")
 	)
 	(label "in_norm_off_2"
 		(at 77.47 50.8 0)
@@ -8033,7 +8073,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 123.19 133.35 0)
+		(at 115.57 121.92 0)
 		(mirror y)
 		(unit 4)
 		(exclude_from_sim no)
@@ -8043,7 +8083,7 @@
 		(fields_autoplaced yes)
 		(uuid "467677fc-cf19-4746-aebe-8f483fbb7300")
 		(property "Reference" "U4"
-			(at 123.19 124.46 0)
+			(at 115.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8091,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 123.19 127 0)
+			(at 115.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 133.35 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8108,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 123.19 133.35 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8117,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 123.19 133.35 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,16 +9787,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 107.95 110.49 180)
+		(at 104.14 68.58 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7958bd1a-3ca9-4388-89c9-a9ecc0eaa8ee")
 		(property "Reference" "U4"
-			(at 107.95 101.6 0)
+			(at 103.886 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,7 +9803,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 107.95 104.14 0)
+			(at 103.886 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +9811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 110.49 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 107.95 110.49 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 107.95 110.49 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11188,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 115.57 121.92 180)
+		(at 107.95 110.49 180)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11158,7 +11197,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4b793d5-645b-4ad4-b67f-278fbd938909")
 		(property "Reference" "U4"
-			(at 115.57 113.03 0)
+			(at 107.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11205,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 115.57 115.57 0)
+			(at 107.95 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,7 +11213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 121.92 0)
+			(at 107.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11222,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 115.57 121.92 0)
+			(at 107.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11231,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 115.57 121.92 0)
+			(at 107.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,46 +11240,46 @@
 			)
 		)
 		(pin "7"
-			(uuid "61dd3843-fb81-495b-900d-91b72ac8dddc")
+			(uuid "61dd3843-fb81-495b-900d-91b72ac8dddd")
 		)
 		(pin "4"
-			(uuid "c74bc5fd-c4ca-45bc-a51e-c2b96cc7f860")
+			(uuid "c74bc5fd-c4ca-45bc-a51e-c2b96cc7f861")
 		)
 		(pin "2"
-			(uuid "9bc01ca4-0027-4063-b435-e402a58f5e5b")
+			(uuid "9bc01ca4-0027-4063-b435-e402a58f5e5c")
 		)
 		(pin "9"
-			(uuid "4a3b2ca8-01e5-48bc-b40a-081c84f50ba5")
+			(uuid "4a3b2ca8-01e5-48bc-b40a-081c84f50ba6")
 		)
 		(pin "8"
-			(uuid "d6fe3438-efb6-4e01-9617-fbd40efd188c")
+			(uuid "d6fe3438-efb6-4e01-9617-fbd40efd188d")
 		)
 		(pin "10"
-			(uuid "4809f970-cfe2-421b-aee8-958b926a7c84")
+			(uuid "4809f970-cfe2-421b-aee8-958b926a7c85")
 		)
 		(pin "13"
-			(uuid "6ad3b4b7-227a-46ee-ae24-12b643d917d4")
+			(uuid "6ad3b4b7-227a-46ee-ae24-12b643d917d5")
 		)
 		(pin "12"
-			(uuid "2cc3f072-885e-4d98-8340-af8296d3f6d5")
+			(uuid "2cc3f072-885e-4d98-8340-af8296d3f6d6")
 		)
 		(pin "14"
-			(uuid "7c035314-971e-4dc8-b8a3-9d359d520a99")
+			(uuid "7c035314-971e-4dc8-b8a3-9d359d520a9a")
 		)
 		(pin "3"
-			(uuid "457cb68e-45a5-46b5-964f-66e081e1fd85")
+			(uuid "457cb68e-45a5-46b5-964f-66e081e1fd86")
 		)
 		(pin "6"
-			(uuid "4d1cc164-642e-4111-9cb9-d6225481c586")
+			(uuid "4d1cc164-642e-4111-9cb9-d6225481c587")
 		)
 		(pin "11"
-			(uuid "6dce1739-5bf5-474f-93fb-74d9847c72f9")
+			(uuid "6dce1739-5bf5-474f-93fb-74d9847c72fa")
 		)
 		(pin "1"
-			(uuid "f59c8346-7f05-4e23-8c66-74290df6749e")
+			(uuid "f59c8346-7f05-4e23-8c66-74290df6749f")
 		)
 		(pin "5"
-			(uuid "954a6192-e64a-4f42-8574-9fff79986b3f")
+			(uuid "954a6192-e64a-4f42-8574-9fff79986b40")
 		)
 		(instances
 			(project ""
@@ -12226,6 +12265,110 @@
 				(path "/51f00b6a-0452-4345-b95d-48d0ef48a867"
 					(reference "U4")
 					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 123.19 133.35 180)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef50c599-1835-4b6e-8a8f-f87d90369c2a")
+		(property "Reference" "U4"
+			(at 123.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "758c25f6-d48b-45dd-aa9c-31618ee44c54")
+		)
+		(pin "2"
+			(uuid "ee6f66f5-850f-43b0-8901-a146ff887a3c")
+		)
+		(pin "13"
+			(uuid "392e7c52-ab0c-44a7-8a4e-fdae7ff370f2")
+		)
+		(pin "14"
+			(uuid "a26ea083-4afb-4450-8b06-cb52ed4f9209")
+		)
+		(pin "4"
+			(uuid "58827ac3-2898-45ae-94a1-5d6cc8481ce6")
+		)
+		(pin "7"
+			(uuid "8e440353-bd61-48b1-a526-7329ca5473ba")
+		)
+		(pin "12"
+			(uuid "66a93a9e-874a-4600-9524-97611d41d44e")
+		)
+		(pin "3"
+			(uuid "8ab73166-dfcd-469d-8ec3-724586d3628c")
+		)
+		(pin "9"
+			(uuid "5c1d3070-5a39-4e90-9362-12335a43a1c7")
+		)
+		(pin "8"
+			(uuid "b2ac3492-f512-4e7a-bf58-505c0e8649e5")
+		)
+		(pin "10"
+			(uuid "7e0be46f-9da5-4ade-a0e7-510b9ef5204a")
+		)
+		(pin "5"
+			(uuid "9a4f7657-5001-4102-a54b-9274a28e1399")
+		)
+		(pin "6"
+			(uuid "e6d7bd17-e4f0-4b97-b8f9-5ffa711de01f")
+		)
+		(pin "11"
+			(uuid "c0f7e7be-838c-4284-9b66-070534b43eb0")
+		)
+		(instances
+			(project ""
+				(path "/51f00b6a-0452-4345-b95d-48d0ef48a867"
+					(reference "U4")
+					(unit 5)
 				)
 			)
 		)

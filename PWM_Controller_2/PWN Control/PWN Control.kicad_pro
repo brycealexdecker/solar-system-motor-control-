@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "3 Way Adjustable Pot.kicad_pro",
+    "filename": "PWN Control.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -566,6 +566,14 @@
       {
         "netclass": "Power Switch",
         "pattern": "/switch*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/+DAC*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/-DAC*"
       }
     ]
   },
@@ -665,7 +673,7 @@
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
@@ -698,7 +706,7 @@
   },
   "sheets": [
     [
-      "51f00b6a-0452-4345-b95d-48d0ef48a867",
+      "b291fc6a-0dd5-487d-9cea-cb63a415fa02",
       "Root"
     ]
   ],
